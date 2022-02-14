@@ -58,4 +58,15 @@ public class Dictionary <T, E>{
     public int size(){
         return values.size();
     }
+    //return a collection of keys
+    public Collection<E> keys(){
+        Collection collection = keys;
+        return collection;
+    }
+
+    //return a collection of values
+    public Collection<E> values(){
+        Collection collection = values;
+        return collection;
+    }
 }
