@@ -17,5 +17,13 @@ public class DictionaryDriver {
         //add a value
         test.put("August", "Pogust");
         System.out.println("Adding a key value pair to the dictionary.");
+        //test isEmpty
+        System.out.println("Test isEmpty(should return false): " + test.isEmpty());
+        //test size
+        System.out.println("Test size(should return 1): " + test.size());
+        //test contains method
+        System.out.println("Test contains with August(should return true): " + test.contains("August"));
+        System.out.println("Test contains with Will(should return false): " + test.contains("Will"));
+        //still need to test get, remove, and contains(add more values for this)
     }
 }
