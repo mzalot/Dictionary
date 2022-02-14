@@ -51,7 +51,7 @@ public class Dictionary <T, E>{
 
     //isEmpty method
     public boolean isEmpty(){
-        return values.size() < 0;
+        return !(values.size() > 0);
     }
 
     //size method
